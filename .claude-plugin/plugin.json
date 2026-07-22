@@ -1,7 +1,7 @@
 {
   "name": "pernanbucanas-agentes",
   "description": "Plugin com agentes e skills do time Pernambucanas para o Claude Code.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Landtech",
     "url": "https://github.com/viniciuslandit/pernanbucanas-agentes"

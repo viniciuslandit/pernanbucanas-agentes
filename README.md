@@ -20,8 +20,11 @@ No Claude Code:
 | `tech-lead` | `/refinar-historia <história>` | Refinamento técnico baseado no código real do repositório e quebra da história em subtarefas pequenas e verificáveis, com dependências e ordem. |
 | `bdd-gherkin` | `/bdd-gherkin <funcionalidade>` | Escreve cenários BDD em Gherkin pt-BR (Dado/Quando/Então), cobrindo caminho feliz, validações e erros. |
 | `playwright-tester` | `/playwright-e2e <fluxo>` | Escreve e executa testes E2E com Playwright, usando o Playwright MCP quando disponível para explorar a aplicação real. |
+| `orquestrador` | `/orquestrar <demanda>` | Conduz uma demanda pelo fluxo completo, delegando cada etapa ao subagente especialista e consolidando o resultado. |
 
 ## Fluxo sugerido
+
+Para conduzir tudo de uma vez: `/orquestrar <card ou demanda>`. Ou etapa a etapa:
 
 ```
 /ler-card AB#1234        →  extrai o card do Azure DevOps/Jira
