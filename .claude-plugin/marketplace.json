@@ -1,0 +1,13 @@
+{
+  "name": "pernanbucanas-agentes",
+  "owner": {
+    "name": "Landtech"
+  },
+  "plugins": [
+    {
+      "name": "pernanbucanas-agentes",
+      "source": "./",
+      "description": "Agentes e skills do time Pernambucanas: Product Owner, Tech Lead, BDD Gherkin, Playwright E2E e leitor de cards Azure DevOps/Jira."
+    }
+  ]
+}
